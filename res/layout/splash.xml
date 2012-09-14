@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    
+    >
+  <TableLayout android:id="@+id/tableLayout2" android:layout_height="match_parent" android:layout_width="fill_parent">
+      <TableRow android:paddingTop="10px" android:id="@+id/tableRow1" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+          <ImageView android:src="@drawable/intro" android:layout_height="wrap_content" android:layout_width="fill_parent"></ImageView>
+      </TableRow>
+      <TableRow android:paddingTop="20px" android:id="@+id/tableRow2" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+      </TableRow>
+      <TableRow android:paddingTop="10px" android:id="@+id/tableRow3" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+      </TableRow>
+      <TableRow android:paddingTop="10px" android:id="@+id/tableRow4" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+      </TableRow>
+      <TableRow android:paddingTop="10px" android:id="@+id/tableRow5" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+      </TableRow>
+      <TableRow android:paddingTop="100px" android:id="@+id/tableRow6" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+      </TableRow>
+
+  
+  </TableLayout>
+</LinearLayout>
